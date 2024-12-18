@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Violences Vicariantes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet"> <!-- Importation de Roboto -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #800020; /* Rouge pourpre */
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        h1 {
+            margin: 0; /* Évite l'espacement inutile */
+            font-family: 'Roboto', sans-serif; /* Applique Roboto au titre */
+            font-weight: 700; /* Police épaisse */
+        }
+        .highlight {
+            text-transform: uppercase; /* Met "VIOLENCES VICARIANTES :" en majuscules */
+            text-decoration: underline; /* Souligne seulement "VIOLENCES VICARIANTES :" */
+        }
+        h2 {
+            font-size: 1.2rem; /* Réduit la taille de la police des titres des infographies de 3 points */
+            color: #800020; /* Change la couleur des titres pour correspondre au fond du titre principal */
+        }
+        p {
+            text-transform: lowercase; /* Met tout le texte du paragraphe en minuscule */
+            font-size: 1rem; /* Taille de texte normal */
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+        }
+        section {
+            width: 100%;
+            max-width: 800px;
+            margin: 1rem 0;
+            padding: 1rem;
+            background: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        img {
+            width: 80%; /* Réduit la taille de l'infographie à 80% de la largeur de son conteneur */
+            height: auto;
+            border-radius: 8px;
+            display: block;
+            margin: 0 auto; /* Centrer l'infographie */
+        }
+        footer {
+            text-align: center;
+            font-size: 0.8rem; /* Texte plus petit */
+            color: #800020; /* Respecte la charte graphique */
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            <span class="highlight">VIOLENCES VICARIANTES :</span><br>
+            trois infographies pour comprendre comment les violences conjugales peuvent impacter les enfants et mener à des infanticides
+        </h1>
+    </header>
+    <main>
+        <section>
+            <h2>Premières estimations du nombre d'enfants victimes de violences vicariantes - décryptage des appels des femmes au 3919 pour dénoncer des violences conjugales</h2>
+            <img src="Infog 3919.PNG" alt="Infographie violences vicariantes">
+        </section>
+        <section>
+            <h2>Décompte des infanticides vicariants de 2007 à 2021</h2>
+            <div class="flourish-embed flourish-chart" data-src="visualisation/20614425">
+                <script src="https://public.flourish.studio/resources/embed.js"></script>
+                <noscript>
+                    <img src="https://public.flourish.studio/visualisation/20614425/thumbnail" width="100%" alt="chart visualization" />
+                </noscript>
+            </div>
+        </section>
+        <section>
+            <h2>Localisation des infanticides vicariants en 2024 en France</h2>
+            <iframe width="100%" height="300px" frameborder="0" allowfullscreen allow="geolocation" src="https://umap.openstreetmap.fr/fr/map/infanticides-vicariants-en-2024_1150733?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"></iframe>
+            <p>
+                <a href="https://umap.openstreetmap.fr/fr/map/infanticides-vicariants-en-2024_1150733?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true">Voir en plein écran</a>
+            </p>
+        </section>
+    </main>
+    <footer>
+        Ces infographies sur les violences vicariantes ont été réalisées par Clément Guillonneau, Dunvel Ramalingum et Lucie Verdier
+    </footer>
+</body>
+</html>
